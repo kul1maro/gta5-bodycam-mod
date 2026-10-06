@@ -1,0 +1,16 @@
+# General
+.DS_Store
+*.log
+
+# Build products
+build/
+dist/
+release/
+*.zip
+
+# Editor files
+.vscode/
+.idea/
+
+# Local scratch
+scratch/
