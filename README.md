@@ -1,43 +1,65 @@
-# Bodycam x GTA V Legacy
+# gta5-bodycam-mod
 
-A single-player GTA V story mode mod that adds a Bodycam mission layer to Los Santos.
+Bodycam prototype for GTA V Legacy story mode.
 
 ## What this project is
-This prototype turns GTA V Legacy into a Bodycam-style mission playground. The player stays in the real GTA V world, but the mod adds a short recording HUD, evidence markers, mission triggers, and a simple chase/investigation loop.
+
+This project is a Bodycam-style gameplay layer for GTA V Legacy story mode. The player stays inside the real GTA V world, but the mod adds a short police-style recording experience with a HUD, mission trigger, evidence markers, and a simple investigation loop.
+
+This is a prototype and design project, not a finished commercial release.
 
 ## Required game
-- GTA V Legacy (story mode only)
+
+- GTA V Legacy
+- Story mode only
 - Not GTA Online
-- This project is a real game mod that runs from the player's copy of GTA V
 
-## Current status
-This is a prototype and design document, not a finished release yet.
+This project is meant to run from the player's own copy of GTA V and changes the game through a mod loader path, not as a standalone game.
 
-## Planned first playable version
-- Trigger a mission in GTA V
-- Activate Bodycam HUD
-- Mark evidence points
-- Complete a short objective
-- End the mission and return to free-roam
+## Core idea
+
+The mod adds:
+- a Bodycam recording HUD
+- a short mission trigger inside Los Santos
+- evidence points and markers
+- a simple chase or investigation objective
+- a clean mission end and return to free roam
 
 ## Safe route
-This project follows the same general route already used in the repo for GTA V modding:
+
+This project follows the same general route already used for GTA V story-mode mods:
 - Story mode only
-- ScriptHookV + ASI loader
-- ReShade overlay path
-- No online mode, no anti-cheat bypass
+- ScriptHookV + ASI loader approach
+- ReShade overlay or HUD layer
+- No online play
+- No anti-cheat bypass
+- No multiplayer assumptions
+
+## Current status
+
+This repository is currently a prototype and planning project. It does not yet contain a finished playable build.
+
+## Planned first playable version
+
+The first version will focus on:
+1. a mission trigger in GTA V
+2. a Bodycam HUD overlay
+3. evidence markers
+4. one short objective loop
+5. mission success/fail state
+6. return to free roam
+
+## Goals
+
+- create a working single-player mission prototype
+- keep the mod inside GTA V story mode
+- stay safe and publishable for Melty
+- avoid GTA Online and anti-cheat issues
+- document the build and test process clearly
 
 ## Project structure
-- `src/` - mod source and mission logic
-- `assets/` - UI overlays, HUD graphics, evidence markers, screenshots
-- `docs/` - design notes and build steps
-- `release/` - packaged mod output
 
-## How to use
-1. Install GTA V Legacy story mode
-2. Install the supported loader setup for this mod
-3. Launch GTA V and start the mission from the in-game trigger
-4. Use the Bodycam mode in the prototype mission loop
-
-## License
-This project is a prototype for personal and modding use. Add your preferred license before publishing.
+```text
+README.md
+MODLOG.md
+docs/
