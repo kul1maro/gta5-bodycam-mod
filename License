@@ -1,0 +1,25 @@
+
+### 2) MODLOG.md
+```md
+# Mod log
+
+## Project
+Bodycam x GTA V Legacy
+
+## Concept
+A single-player GTA V story mode modification that adds a Bodycam-style mission layer, recording HUD, and evidence-based mission loop.
+
+## Current status
+Prototype and design file created.
+
+## Host game
+GTA V Legacy, story mode only.
+
+## Rules
+- No GTA Online
+- No anti-cheat bypass
+- No multiplayer assumptions
+- Keep it a real mod that launches from the player's GTA V install
+
+## Next milestone
+Build a minimal mission trigger, Bodycam UI, and a short objective loop that can run in GTA V story mode.
